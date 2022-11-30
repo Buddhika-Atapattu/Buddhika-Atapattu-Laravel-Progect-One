@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@1&display=swap');
+
+
+.tox-tinymce {
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif,'Mouse Memoirs', sans-serif,'BhuTuka Expanded One', cursive,'Alumni Sans Inline One', cursive,'Square Peg', cursive,'Dancing Script', cursive,'Lobster', cursive,'Pacifico', cursive,'Tiro Gurmukhi', serif;
+    overflow: hidden;
+    position: relative;
+    visibility: inherit!important;
+}
+.mce-tinymce::before{
+    position: absolute;
+    left: 0px;
+}
+textarea{
+    border: 0px;
+}
+.mce-tinymce {
+    visibility: inherit !important;
+    position: relative;
+    box-shadow: 0px 0px 10px 1px #b9b9b9;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+    background: #e8e8e8;
+}
+/*backend about page preview image*/
+.preview-image{
+    width:100%;
+    height:auto;
+}
+.upload-btn{
+    font-size: 20px !important;
+}
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+     /*The height is 400 pixels*/ 
+    width: 100%;
+    /* The width is the width of the web page */
+}
+.bootstrap-tagsinput {
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 1%) !important;
+    display: inline-block !important;
+    padding: 10px !important;
+    color: #555 !important;
+    vertical-align: middle !important;
+    border-radius: 4px !important;
+    max-width: 100% !important;
+    line-height: 22px !important;
+    cursor: text !important;
+}
+.bootstrap-tagsinput .tag{
+    margin: 2px;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    font-weight: 900px;
+}
+.bootstrap-tagsinput .tag {
+    margin-right: 2px !important;
+    color: white !important;
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    padding: 5px 10px !important;
+}
+/*.dropzone .dz-message {
+    text-align: center;
+    margin: 2em 0;
+    display: none;
+}*/
+.dropzone {
+    min-height: 150px;
+    border: 2px dashed rgb(0 65 255) !important;
+    background: rgb(167 167 167 / 24%) !important;
+    padding: 20px 20px;
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+}
+
+.form-check-inline {
+    display: inline-block;
+    margin-right: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+* {
+    scrollbar-width: thick; /* none | auto  */
+    scrollbar-color: #ffa07a transparent;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(255 255 255 / 44%);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, #0017b0, #b00049);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2e2e2e;
+    width: 10px;
+}
